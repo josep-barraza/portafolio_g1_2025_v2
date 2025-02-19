@@ -1,0 +1,18 @@
+.contactinfo {
+    padding-left: 3vw;
+    padding-top: 5vh;    
+}
+.contacticon {    
+    height: 4rem;
+    width: 4rem;
+}
+.dull__contact {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    right: 0vh;
+    font-size: 12rem;
+    font-weight: 900;
+    color: rgb(37, 34, 34); 
+}

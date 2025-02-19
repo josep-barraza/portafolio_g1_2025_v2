@@ -1,0 +1,293 @@
+
+.home {
+    height: 100vh;  
+    // padding-left: 12vw;    
+}
+//main__title1 & 2 are responsive/ needs cleaning
+// main__title1 d-none d-sm-none d-md-flex
+// main__title2 d-sm-flex d-md-none d-lg-none d-xl-none
+.main__title1 {
+    padding-top: 20vh;
+    font-size: 4rem;
+    color: $secondaryColor; 
+    font-weight: 700;
+    color: white;
+    padding-left: 3vw;   
+    line-height:8vh;
+}
+.main__title2 {
+    padding-top: 20vh;
+    font-size: 4rem;
+    color: $secondaryColor; 
+    font-weight: 700;
+    color: white;
+    padding-left: 3vw;   
+    line-height: 8vh;
+}
+.main__subtitle {
+    display: inline-block;
+    font-size: 1rem;
+    color: $secondaryColor; 
+    font-weight: normal;
+    color: $dullColor;
+    padding-left: 3vw;
+    padding-top: 5vh;
+    &:hover {
+        color: $primaryColor;
+        font-size: 1.1rem;   
+    }   
+}
+.dull__work {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    right: 0vh;
+    font-size: 14rem;
+    font-weight: 900;
+    color: rgb(37, 34, 34); 
+}
+
+
+// #mainrow {
+//     margin-top: 10vh;
+//     padding: 0%; 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+.nav__rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 26px;
+    position: fixed;
+}
+
+.nav__rsss--logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.rrss__logo {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+// .navBar {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+//     background-color: $backgroundColor;
+//     height: 26px;
+//     color: white;
+// }

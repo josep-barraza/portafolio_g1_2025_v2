@@ -1,0 +1,52 @@
+.scroll__down {
+    position: absolute;
+    left: 0;
+    
+    transform: rotate(90deg);
+    // color: $dullColor;
+    color: $primaryColor;
+   
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;   
+    height: 150px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.box2 {
+    align-self: flex-end;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;   
+    // height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.box3 {
+    align-self: flex-end;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+    // height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce-1, .bounce-2, .bounce-3 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-100px); }
+    100% { transform: translateX(0); }
+}
+
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}

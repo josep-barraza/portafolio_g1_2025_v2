@@ -1,0 +1,62 @@
+.responsive  {
+    display: flex;
+    justify-content: center;    
+}
+.myA2 {
+    color: white;
+    font-size: 2rem;    
+}
+.myC2 {
+    margin-bottom: 5vh;
+    color: $dullColor;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 2vh;
+}
+.nav__rrss2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 26px;    
+    // position: fixed;
+}
+.nav__rsss--logo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    // justify-content: space-between;
+}
+.sidebody__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    // position: fixed;
+    padding-top: 5vh;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height:5vh; 
+  }
+.rrss__logo2 {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0%;
+}
+
+.myLogo2 {
+    padding-top: 10vh;
+    text-align: center;
+    line-height: 4vh;
+    text-decoration: none;
+}
+
+// .navBar {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+//     background-color: $backgroundColor;
+//     height: 26px;
+//     color: white;
+// }

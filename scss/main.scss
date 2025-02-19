@@ -1,0 +1,37 @@
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/resets';
+@import './base/typography';
+
+
+
+@import './layouts/navbar';
+@import './layouts/navbarresponsive';
+@import './layouts/homerow';
+@import './layouts/workrow';
+@import './layouts/aboutrow';
+@import './layouts/skillsrow';
+@import './layouts/projects';
+@import './layouts/contact';
+@import './layouts/footer';
+
+@import './components/sidebar';
+@import './components/scrolldown';
+@import './components/mybtn';
+@import './components/nlogo';
+@import './components/titles';
+// @import './components/portfolio';
+@import './components/mycard';
+
+
+
+
+//#E51ABB
+//#BBE51A
+//#1ABBE5
+
+
+//#08FDD8
+//#D808FD
+//#FDD808

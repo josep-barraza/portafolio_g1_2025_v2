@@ -1,0 +1,17 @@
+.myBtn {
+    display: flex;
+    outline-style: solid;
+    color: $primaryColor;
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 1vh 5vh;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    // text-decoration: none;
+}
+.myBtn:hover {
+    box-shadow: 0px 0px 16px rgb(8, 253, 216);   
+}
+.textDecoNone{
+    text-decoration: none;
+}

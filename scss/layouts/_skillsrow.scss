@@ -1,0 +1,36 @@
+.skills {
+    height: 100vh;
+}
+.skills__title1 {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: $secondaryColor; 
+    font-weight: normal;
+    color: white;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    &:hover {
+        color: $primaryColor;
+        font-size: 1.7rem;   
+    }   
+}
+.skills__title {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: $secondaryColor; 
+    font-weight: normal;
+    color: $dullColor;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    &:hover {
+        color: $primaryColor;
+        font-size: 1.7rem;   
+    }   
+}
+.skills__text {
+    justify-content: left;
+    padding-left: 5vw;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}

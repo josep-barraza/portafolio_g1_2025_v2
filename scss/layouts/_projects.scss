@@ -1,0 +1,28 @@
+.project__description {
+    display: inline-block;
+    font-size: 2rem;
+    color: $secondaryColor; 
+    font-weight: normal;
+    color: $dullColor;
+    padding-left: 3vw;
+    padding-top: 5vh;
+    &:hover {
+        color: $primaryColor;
+        font-size: 2rem; 
+        text-shadow: 0px 0px 16px rgb(8, 253, 216);    
+    }   
+} 
+.bridge {
+    padding-left: 3vw;
+}   
+.myImgproject {
+
+    object-fit: contain;
+}
+.gitbtn {
+    padding-bottom: 5vh;
+}
+.comingsoon {
+    font-size: 3rem;
+    padding-bottom: 5vh;
+}

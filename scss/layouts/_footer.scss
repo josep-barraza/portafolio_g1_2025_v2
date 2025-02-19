@@ -1,0 +1,31 @@
+.myFooter {
+    height: 43vh;
+    padding-bottom: 0vh;
+    margin-bottom: 0vh;
+}
+.footer_color {
+    height: 10vh;
+    background: $primaryColor;
+}
+.footer_color2 {
+    height: 3vh;
+    background: $accentColor;
+}
+.footer_color3 {
+    height: 20vh;
+    background: $backgroundColor;
+}
+.myN3 {
+    color: $primaryColor;
+    text-shadow: 2px 4px $accentColor;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+.rrss__logo3 {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0%;
+}

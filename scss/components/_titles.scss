@@ -1,0 +1,15 @@
+.portfolio__title, .about__title {
+    color:white;
+    font-family: 'DM Serif Text', serif;
+    // text-shadow: 3px 3px $accentColor;
+    font-size: 4rem;
+}
+.portfolio__title {
+    padding-top: 15vh;
+    padding-left: 3vw;
+}
+.about__title {
+    padding-left: 3vw;
+    padding-top: 2vh;
+    margin: 0%;
+}

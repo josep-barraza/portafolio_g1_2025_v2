@@ -1,0 +1,40 @@
+var dataBase = [
+    {'img':'../../dist/image/bridgeIndex.JPG','link':'#','title':'Color-Hex'}
+  , {'img':'../../dist/image/bridgeGuidelines.JPG','link':'#','title':'Coolors'}
+  , {'img':'./dist/image/design_banners/colordrop_banner.JPG','link':'#','title':'Color Drop'}
+  , {'img':'./dist/image/design_banners/canva_banner.JPG','link':'#','title':'Canva'}
+  , {'img':'./dist/image/design_banners/coolors_banner.JPG','link':'#','title':'Coolors'}
+  , {'img':'./dist/image/design_banners/colordrop_banner.JPG','link':'#','title':'Color Drop'}
+ 
+  ]
+  class MainFill {
+    constructor () {
+        const main = document.getElementById('mainrow');
+        let divContent = '';
+        dataBase.forEach(element => { 
+          divContent += `<div class=" pf__box col-sm-12 col-md-3 col-xl-3">
+          <div class="image image__img card-img-top" style="background-image: url("{{}}");">            
+            <a href="#" target="_blank">                   
+             <div class="image__overlay image__overlay--blur">
+               <div class="circle__overlay shadow rounded-circle">
+                 <p class="image__title">View Project</p> 
+               </div>                
+             </div>           
+          </div>
+        </div>`;
+    
+      });    
+  /*      for (let index = 0; index < 3; index++) {
+              
+        }*/
+        
+    main.innerHTML = divContent;
+    }  
+  }
+  var mainObj = new MainFill();
+
+
+// HTML
+// <div class="row" id="mainrow">
+//   </div>
+  

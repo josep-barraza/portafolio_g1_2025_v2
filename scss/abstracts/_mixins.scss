@@ -1,0 +1,11 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin bgBannerCenter {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
